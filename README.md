@@ -16,8 +16,15 @@
 ```js
     // params:
     // box: the id name of element which you want to locate
-    // anchor : the if name of parenet element of the element you want to locate 
+    // anchor : the id name of parenet element of the element you want to locate 
     autoPosition("box","anchor")
+```
+```html
+//element structure
+<div id="anchor">
+  <div class="test" id="box">
+  </div>
+</div>
 ```
 
 #### step 3 : Pass attribute to set position
